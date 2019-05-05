@@ -1,0 +1,102 @@
+
+.warp{
+    width: 100%;
+}
+.mod-tab{
+    width: 100%;
+    min-width: 1200px;
+    height: 383px;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.gb-tab-pn{
+    overflow: hidden;
+    height: 383px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.tab-con{
+    height: 383px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pic{
+    height: 383px;
+    width: 100%;
+}
+.pic a{
+    display: block;
+    width: 100%;
+    height: 383px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.gb-tab{
+    overflow: hidden;
+    position: absolute;
+    z-index: 60;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.gb-tab .item{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 6px;
+    color: #6ff;
+    background-color: #003c49;
+    text-align: center;
+    line-height: 16px;
+}
+.item2{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 6px;
+    color: #6ff;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 16px;
+}
+
+.gb-tab a:hover{
+    background-color: #ffffff;
+}
+.on{
+    background-color: #ffffff;
+}
+.arrow{
+    position: absolute;
+    top: 171px;
+    z-index: 99;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+    cursor: pointer;
+}
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+.warp:hover .arrow {
+    display: block;
+}
+#prev {
+    left: 20px;
+}
+#next {
+    right: 20px;
+}
